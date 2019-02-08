@@ -60,13 +60,13 @@ else:
 
 #5. what do you prefer
 numfiveanswer = input("\n\r5. what do you prefer\n\r   A. this quiz to be over\n\r   B. to own a zoo\n\r   C. a slice of pie\n\r   D. to get a high score\n\r   Your Answer:")
-if numfiveanswer.lower() == "a" or numfiveanswer.lower == "this quiz to be over":
+if numfiveanswer.lower() == "a" or numfiveanswer.lower() == "this quiz to be over":
     print("same, but wrong")
-elif numfiveanswer.lower() == "b" or numfiveanswer.lower == "to own a zoo":
+elif numfiveanswer.lower() == "b" or numfiveanswer.lower() == "to own a zoo":
     print("what, why?")
-elif numfiveanswer.lower() == "c" or numfiveanswer.lower == "a slice of pie":
+elif numfiveanswer.lower() == "c" or numfiveanswer.lower() == "a slice of pie":
     print("sounds yummy, but im a computer not a cook")
-elif numfiveanswer.lower() == "d" or numfiveanswer.lower == "to get a high score":
+elif numfiveanswer.lower() == "d" or numfiveanswer.lower() == "to get a high score":
     print("correct")
     score += 1
 else:
