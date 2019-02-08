@@ -22,7 +22,7 @@ number=int(input("input a number:"))
 
 evenorodd = number%2                    #even or odd test
 if evenorodd == 1:
-    print("test 1: od")
+    print("test 1: odd")
 else:
     print("test 1: even")
                                          # pos, neg, or zero test
