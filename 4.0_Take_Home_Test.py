@@ -12,7 +12,7 @@ but I will definitely not ask another person except the instructor. Signed: Noah
          print("Jedi, you will never be.")
 '''
 
-midichlorians = float(input("Enter midichlorian count: ")
+midichlorians = float(input("Enter midichlorian count: "))
 if  10000 < midichlorians:
    print("You have serious Jedi potential")
 
