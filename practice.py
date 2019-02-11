@@ -1,8 +1,5 @@
-
-print("A. Droid")
-print("B. Storm Trooper")
-user_input = input("R2D2 is a: ")
-if user_input.upper() == "A" or user_input.lower() == "droid":
-    print("Correct!")
+x = 0
+if x > 0:
+    print("x is positive.")
 else:
-    print("Incorrect.")
+    print("x is not positive.")
