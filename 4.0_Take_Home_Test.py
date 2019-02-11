@@ -21,7 +21,7 @@ else:
      
      
 '''
-  2. This runs, but there is something wrong. What is it?
+  2. This runs, but there is something wrong. What is it? or statement and print choices first
      
      user_input = input("R2D2 is a: ")
      print("A. Droid")
@@ -31,6 +31,13 @@ else:
      else:
          print("Incorrect.")
 '''
+print("A. Droid")
+print("B. Storm Trooper")
+user_input = input("R2D2 is a: ")
+if user_input.upper() == "A" or user_input.lower() == "droid":
+    print("Correct!")
+else:
+    print("Incorrect.")
 
 
 
