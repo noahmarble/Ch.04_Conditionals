@@ -1,3 +1,5 @@
-x = int(input("Enter a number: "))
-if x == 3:
-    print("You entered 3")
+answer = input("What is the name of Poe Dameron's Droid? ")
+if answer.upper() == "BB8":
+    print("Correct!")
+else:
+    print("Incorrect! It is BB8.")
