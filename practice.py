@@ -1,5 +1,3 @@
-x = 0
-if x > 0:
-    print("x is positive.")
-else:
-    print("x is not positive.")
+x = int(input("Enter a number: "))
+if x == 3:
+    print("You entered 3")

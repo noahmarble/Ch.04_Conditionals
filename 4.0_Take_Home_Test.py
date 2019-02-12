@@ -54,7 +54,11 @@ else:
      else:
          print("x is not positive.")
  '''
- 
+x = 0
+if x > 0:
+    print("x is positive.")
+else:
+    print("x is not positive.")
  
  
  '''
@@ -64,7 +68,9 @@ else:
      if x = 3
          print("You entered 3")
  '''
- 
+x = int(input("Enter a number: "))
+if x == 3:
+    print("You entered 3")
  
  '''
   5. There are four things wrong with this code. Identify all four issues. 
