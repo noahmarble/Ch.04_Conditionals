@@ -95,6 +95,9 @@ else:
      if x == "Yoda" or "Luke Skywalker" or "Obi-Wan Kenobi":
          print("That is correct!")
 '''
+x = input("Who are the top 3 greatest Jedi?")
+if x.lower() == "yoda" or x.lower() == "luke skywalker" or x.lower() == "obi-wan kenobi":
+    print("That is correct!")
 
 
 
