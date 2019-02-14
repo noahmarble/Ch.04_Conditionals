@@ -1,3 +1,14 @@
-x = input("Who are the top 3 greatest Jedi?")
-if x.lower() == "yoda" or x.lower() == "luke skywalker" or x.lower() == "obi-wan kenobi":
-    print("That is correct!")
+x = 5
+y = 10
+z = 10
+print(x < y)
+print(y < z)
+print(x == 5)
+print(not x == 5)
+print(x != 5)
+print(not x != 5)
+print(x == "5")
+print(5 == x + 0.00000000001)
+print(x == 5 and y == 10)
+print(x == 5 and y == 5)
+print(x == 5 or y == 5)

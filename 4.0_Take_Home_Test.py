@@ -116,6 +116,15 @@ if x.lower() == "yoda" or x.lower() == "luke skywalker" or x.lower() == "obi-wan
          print("Star Wars Episodes 1,2,3 are the best!")
      if z:
          print("Star Wars Episodes 4,5,6 are the best!")
+guess:
+5
+5
+Star Wars Episodes 4,5,6 are the best!
+actual:
+x= 5
+y= False
+z= True
+Star Wars Episodes 4,5,6 are the best!
 '''
 
 
@@ -139,6 +148,31 @@ if x.lower() == "yoda" or x.lower() == "luke skywalker" or x.lower() == "obi-wan
      print(x == 5 and y == 10)
      print(x == 5 and y == 5)
      print(x == 5 or y == 5)
+guess:
+true
+false
+true
+false
+false
+false
+false
+false
+true
+false
+true
+
+Actual:
+True
+False
+True
+False
+False
+True
+False
+False
+True
+False
+True
 '''
 
 
