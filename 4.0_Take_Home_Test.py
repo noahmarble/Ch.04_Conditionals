@@ -160,7 +160,6 @@ false
 true
 false
 true
-
 Actual:
 True
 False
@@ -190,6 +189,27 @@ True
      print((2 == 2) == "True")
      print((2 == 2) == True)
      print("?"<"!")
+     
+Guess:
+true
+false
+true
+true
+
+true
+true
+false
+false
+Actual:
+true 
+false
+true
+true
+error
+true
+false
+true
+false
 '''
 
 
